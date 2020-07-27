@@ -1,0 +1,116 @@
+ul {
+    list-style-type: none;
+}
+#page-title{
+    text-align: center;
+    font-family: 'Holtwood One SC', serif;
+    background-image: url(https://p0.pikist.com/photos/877/456/wooden-boards-boards-grain-wood-background-background-wood-pattern-texture-wood-texture.jpg);
+
+}
+.tab-button{
+    display: none;
+}
+.tab-button:checked + label{
+ color: rgb(65, 36, 17);
+       background-color:#ffffff;
+       border: 5px solid rgb(173, 102, 54);
+       padding: 10px;
+       margin:5px
+}
+#tab-menu{
+    color:#ffffff;
+    display: flex;
+background-color: rgb(173, 102, 54);
+font-family: 'Holtwood One SC', serif;
+
+}
+.tab-label{
+    background-color: rgb(65, 36, 17);
+    margin: 15px;
+    padding: 5px;
+}
+.crop{
+    height: 100px;
+    width: 300px;
+    object-fit: cover;
+}
+.title-container, .section-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:  300px;
+}
+.section-container{
+    background-color: rgb(150 91 4 / 69%);
+    box-shadow: 15px 15px 5px rgb(173 102 54 / 65%);
+    margin:10px
+
+}
+.menu-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;    
+}
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    align-items: center; 
+     background-color: rgb(150 91 4 / 69%);
+     padding: 20px;
+     max-width: 80%;
+     box-shadow: 15px 15px 5px rgb(173 102 54 / 65%);
+
+}
+.img-portada{
+    height: 300px;
+    object-fit: cover ;
+
+}
+.about-description{
+width:500px ;
+margin-left: 15px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: rgb(150 91 4 / 69%);
+    box-shadow: 15px 15px 5px rgb(173 102 54 / 65%);
+}
+.contact-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:25px;
+
+}
+.form-elemnt-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:10px;
+
+
+}
+#fake{
+    position: absolute;
+    font-size: large;
+    font-weight: bold;
+    color: red;
+    background-color: seashell;
+
+}
